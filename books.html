@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Bootstrap Project</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="header">
+    <header>
+      <h1>
+        <span class="mini">mini</span>Library<img src="img/logo.png" alt="" width="98" height="98">
+      </h1>
+    </header>
+  </div>
+  <!-- Header -->
+
+  <!-- Nav -->
+  <div class="navbar">
+    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+    <a class="nav-link" href="books.html">Books</a>
+    <a class="nav-link" href="about.html">About</a>
+    <a class="nav-link" href="services.html">Services</a>
+    <div class="dropdown"><button class="dropbtn">Account</button>
+      <div class="dropdown-content">
+        <a href="login.html">Login</a>
+        <a href="signup.html">Sign Up</a>
+      </div>
+    </div>
+  </div>
+  <!-- Nav -->
+
+  <!-- Breadcrumb -->
+  <div class="container-fluid">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">miniLibrary<img src="img/logo.png" alt="" width="31" height="31"></li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="books.html">Books</a></li>
+      </ol>
+    </nav>
+  </div>
+  <!-- Breadcrumb -->
+
+  <!-- Search Bar -->
+  <div class="container-fluid">
+    <div class="searchbar">
+      <div class="search-facet">
+        <label class="search-facet-selector">
+          <span aria-hidden="true" class="search-facet-value"></span>
+          <select aria-label="Search by">
+            <option value='all'>All</option>
+            <option value='title'>Title</option>
+            <option value='author'>Author</option>
+            <option value='text'>Text</option>
+            <option value='subject'>Subject</option>
+            <option value='lists'>Lists</option>
+            <option value='advanced'>Advanced</option>
+          </select>
+        </label>
+      </div>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search Books" aria-label="Search">
+        <button class="btn btn-outline-dark" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+  <!-- Search Bar -->
+
+  <!-- Trending -->
+  <div class="trending">
+    <div class="container-fluid">
+      <h1>Trending Books</h1>
+      <!--row-->
+      <div class="row">
+        <!--col-->
+        <div class="col-md-2">
+          <div class="card">
+            <img src="img/book2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-secondary">Read now</a>
+              <button type="button" class="btn btn-outline-primary">Add to list</button>
+            </div>
+          </div>
+        </div>
+        <!--col-->
+        <!--col-->
+        <div class="col-md-2">
+          <div class="card">
+            <img src="img/book4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-secondary">Read now</a>
+              <button type="button" class="btn btn-outline-primary">Add to list</button>
+            </div>
+          </div>
+        </div>
+        <!--col-->
+        <!--col-->
+        <div class="col-md-2">
+          <div class="card">
+            <img src="img/book6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-secondary" disabled>Unavaliable</a>
+              <button type="button" class="btn btn-outline-primary">Add to list</button>
+            </div>
+          </div>
+        </div>
+        <!--col-->
+        <!--col-->
+        <div class="col-md-2">
+          <div class="card">
+            <img src="img/book8.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-secondary">Read now</a>
+              <button type="button" class="btn btn-outline-primary">Add to list</button>
+            </div>
+          </div>
+        </div>
+        <!--col-->
+        <!--col-->
+        <div class="col-md-2">
+          <div class="card">
+            <img src="img/book10.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-secondary">Read now</a>
+              <button type="button" class="btn btn-outline-primary">Add to list</button>
+            </div>
+          </div>
+        </div>
+        <!--col-->
+        <!--col-->
+        <div class="col-md-2">
+          <div class="card">
+            <img src="img/book1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-secondary">Unavaliable</a>
+              <button type="button" class="btn btn-outline-primary">Add to list</button>
+            </div>
+          </div>
+        </div>
+        <!--col-->
+      </div>
+      <!--row-->
+      <!--row-->
+      <div class="row">
+        <!--col-->
+        <div class="col-md-2">
+          <div class="card">
+            <img src="img/book11.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-secondary">Read now</a>
+              <button type="button" class="btn btn-outline-primary">Add to list</button>
+            </div>
+          </div>
+        </div>
+        <!--col-->
+        <!--col-->
+        <div class="col-md-2">
+          <div class="card">
+            <img src="img/book12.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-secondary">Buy now</a>
+              <button type="button" class="btn btn-outline-primary">Add to list</button>
+            </div>
+          </div>
+        </div>
+        <!--col-->
+        <!--col-->
+        <div class="col-md-2">
+          <div class="card">
+            <img src="img/book3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-secondary">Read now</a>
+              <button type="button" class="btn btn-outline-primary">Add to list</button>
+            </div>
+          </div>
+        </div>
+        <!--col-->
+        <!--col-->
+        <div class="col-md-2">
+          <div class="card">
+            <img src="img/book5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-secondary">Read now</a>
+              <button type="button" class="btn btn-outline-primary">Add to list</button>
+            </div>
+          </div>
+        </div>
+        <!--col-->
+        <!--col-->
+        <div class="col-md-2">
+          <div class="card">
+            <img src="img/book7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-secondary">Member Only</a>
+              <button type="button" class="btn btn-outline-primary">Add to list</button>
+            </div>
+          </div>
+        </div>
+        <!--col-->
+        <!--col-->
+        <div class="col-md-2">
+          <div class="card">
+            <img src="img/book9.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-secondary">Read now</a>
+              <button type="button" class="btn btn-outline-primary">Add to list</button>
+            </div>
+          </div>
+        </div>
+        <!--col-->
+      </div>
+      <!--row-->
+
+    </div>
+  </div>
+  <!-- Trending -->
+  <!-- Pagination -->
+  <div class="container-fluid">
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link">Previous Page</a>
+        </li>
+        <li class="page-item active" aria-current="page">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">...</li>
+        <li class="page-item"><a class="page-link" href="#">99</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next Page</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- Pagination -->
+
+  <!-- Footer -->
+  <footer>
+    ©2023 — Developed by Kyaw Kaung Thant.
+  </footer>
+  <!-- Footer -->
+</html>

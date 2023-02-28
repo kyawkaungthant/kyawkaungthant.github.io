@@ -1,0 +1,301 @@
+*{
+    font-family:'Open Sans Condensed', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: beige;
+    margin: 0%;
+}
+.mini {
+    color: maroon;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 42px;
+}
+.header h1 {
+    font-size: 69px;
+}
+.header {
+    color: beige;
+    background-color: black;
+    text-align: center;
+    padding: 22px;
+}
+.navbar{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 2px;
+}
+  
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 2px;
+    padding: 20px 69px;
+    border-radius: 4px;
+}
+  
+button{
+    margin: 2px;
+}
+  
+.dropdown .dropbtn {
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: inherit;
+    font-size: inherit;
+    margin: 2px;
+    padding: 20px;
+    border-radius: 4px;
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    color: gray;
+}
+  
+.dropdown-content{
+    color: white;
+    background-color: gray;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    border-radius: 7px;
+}
+  
+.dropdown-content a {
+    float: none;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px;
+    padding: 9px 22px;
+    border-radius: 4px;
+}
+  
+.dropdown-content a:hover {
+    color: gray;
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.searchbar,.breadcrumb {
+    font-size: larger;
+    margin: 18px 40px;
+}
+
+.search-facet-selector {
+    font-size: 14px;
+}
+.breadcrumb{
+    margin-left: 30px;
+}
+.breadcrumb-item a {
+    font-weight: bold;
+    text-decoration: none;
+    color: maroon;
+    
+}
+.left{
+    width: 66%;
+    float: left;
+    margin: 0px 20px;
+}
+.right{
+    width: 28%;
+    float: right;
+    margin: 0px 20px;
+}
+.home p,.home h4,.home h1 {
+    color: beige;
+}
+.home .box{
+    background-color: maroon;
+    padding: 31px 31px;
+    border-radius: 13px;
+    margin-bottom: 40px;
+}
+.home .box h1{
+    color: beige;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 22px;
+}
+.home .imgbox {
+    margin: 13px 8px;
+}
+.row::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+.home .card{
+    background-color: maroon;
+    padding: 6px;
+    padding-left: 28px;
+    margin-bottom: 20px;
+    border-radius: 13px;
+}
+.home .btn a{
+    color: white;
+    text-decoration: none;
+}
+.home .services {
+    margin-top: 10px;
+    margin-left: 66px;
+}
+.home .services a {
+    color: beige;
+    font-size: larger;
+}
+.home .services a:hover {
+    color: gray;
+}
+.home .imgbox{
+    width: 90%;
+    height:auto;
+}
+.row::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+.trending {
+    background-color: maroon;
+    padding: 31px;
+    border-radius: 13px;
+}
+.trending .card-img-top{
+    height: 280px;
+    padding: 13px;
+}
+.trending,.about {
+    margin: 31px;
+}
+.trending h1 {
+    color: beige;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+.trending .card{
+    padding: 6px;
+    margin-bottom: 20px;
+    border-radius: 13px;
+}
+.about p {
+    font-size: large;
+    text-align: center;
+    line-height: 40px;
+    text-indent: 69px;
+    margin-bottom: 40px;
+}
+.about .card-text{
+    color: black;
+    text-indent: 0%;
+    text-align: left;
+    margin-bottom: 4px;
+}
+.about .card-title {
+    color: black;
+    text-align: left;
+}
+.about a{
+    color: gray;
+    margin-left: 4px;
+}
+.about h1,.spage h1 {
+    color: beige;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.about h3,.spage h3 {
+    color: beige;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.about, .spage {
+    background-color: maroon;
+    padding: 31px;
+    margin: 31px;
+    border-radius: 13px;
+}
+.carousel{
+    margin-bottom: 31px;
+}
+.carousel-item{
+    height: 600px;
+}
+.spage {
+    position: relative;
+}
+.about p,.spage p {
+    color: beige;
+    font-size: large;
+    text-align: center;
+    line-height: 40px;
+    text-indent: 69px;
+    margin-bottom: 40px;
+}
+.spage .btn {
+    border-radius:18px;
+}
+.spage .btn a {
+    font-weight: bold;
+    text-align: center;
+    color: beige;
+    text-decoration: none;
+    border-radius:23px;
+}
+.spage .btn a:hover {
+    color: maroon;
+}
+.container {
+    text-align: center;
+}
+.vh-100 {
+    border-radius: 13px;
+    background-color: maroon;
+    margin: 31px;
+}
+.register h3,.login h3,.login a {
+    text-decoration: none;
+    color: maroon;
+    font-weight: bold;
+}
+.login .form-check-label {
+    margin-left: 4px;
+}
+.login a:hover {
+    color: gray;
+}
+.imgbox,.d-block{
+    border-radius: 8px;
+}
+footer {
+    color: beige;
+    background-color: black;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    padding: 4px;
+}
+@media screen and (max-width: 800px) {
+    .row,.left,.right,.box,.card,.btn,.btn2,.imgbox{
+        width: 100%;
+        padding-right: 22px;
+    }
+}
+
